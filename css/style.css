@@ -1,22 +1,41 @@
 body {
-  background-color: #e3dae4 !important;
+  background-color: #fcfcfc !important;
 }
 
 h1 {
-  text-align: center;
-  color: blueviolet;
+  color: #65cde3;
 }
-a {
-  text-decoration: none !important;
-  color: blueviolet !important;
+
+.links a {
+  text-decoration: none;
+  color: #121d20;
   text-transform: capitalize;
   padding: 14px 20px;
-  border: 2px solid blueviolet;
+  background-color: #f7e10e;
   border-radius: 4px;
   margin: 10px;
 }
-.cat-photo {
-  width: 300px;
+.links a:hover,
+.contact-info a:hover {
+  color: #65cde3 !important;
+}
+.sub-header {
+  color: #121d20;
+  opacity: 80%;
+  font-size: 18px;
+}
+.contact-info {
+  font-size: 24px !important;
+}
+.contact-info a,
+.contact-info address {
+  color: #65cde3;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.croissant-photo {
+  width: 550px;
   margin: 0 auto;
   display: block;
 }
