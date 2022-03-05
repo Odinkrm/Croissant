@@ -1,0 +1,26 @@
+body {
+  background-color: #e5e5e5;
+}
+
+h1 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: blueviolet;
+  text-transform: uppercase;
+  padding: 14px 20px;
+  border: 1px solid blueviolet;
+  border-radius: 4px;
+  margin: 10px;
+  display: inline-block;
+}
+.links {
+  margin: 0 auto;
+  width: 32%;
+}
+.cat-photo {
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
