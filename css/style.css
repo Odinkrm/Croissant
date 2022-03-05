@@ -4,20 +4,16 @@ body {
 
 h1 {
   text-align: center;
+  color: blueviolet;
 }
 a {
-  text-decoration: none;
-  color: blueviolet;
-  text-transform: uppercase;
+  text-decoration: none !important;
+  color: blueviolet !important;
+  text-transform: capitalize;
   padding: 14px 20px;
-  border: 1px solid blueviolet;
+  border: 2px solid blueviolet;
   border-radius: 4px;
   margin: 10px;
-  display: inline-block;
-}
-.links {
-  margin: 0 auto;
-  width: 32%;
 }
 .cat-photo {
   width: 300px;
